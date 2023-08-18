@@ -1,7 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="5db4501e-23a8-4ea6-8886-b99e789d3afb" name="Changes" comment="" />
+    <list default="true" id="5db4501e-23a8-4ea6-8886-b99e789d3afb" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/Stacks_and_Queue/Permutation.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Stacks_and_Queue/RandomizedQueue.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data Structure.iml" beforeDir="false" afterPath="$PROJECT_DIR$/Data Structure.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Percolation/Percolation.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Percolation/Percolation.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Percolation/PercolationStats.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Percolation/PercolationStats.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Stacks_and_Queue/Deque.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Stacks_and_Queue/Deque.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Test/ThreeSumProblem.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Test/ThreeSumProblem.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -10,19 +22,118 @@
   <component name="ComposerSettings">
     <execution />
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
   <component name="ProjectId" id="2RbDBBHaVTLRWsSiLJreCHPl7Yo" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "WebServerToolWindowFactoryState": "false"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/hp/Desktop/Comp Sci notes/Algorithms/Lectures/algs4.jar&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.keymap&quot;
   }
-}]]></component>
+}</component>
+  <component name="RunManager" selected="Application.Deque">
+    <configuration name="Deque" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Stacks_and_Queue.Deque" />
+      <module name="Data Structure" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Stacks_and_Queue.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Percolation" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Percolation.Percolation" />
+      <module name="Data Structure" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value=".*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="PercolationStats" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Percolation.PercolationStats" />
+      <module name="Data Structure" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value=".*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ThreeSumProblem" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Test.ThreeSumProblem" />
+      <module name="Data Structure" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Percolation.test" />
+      <module name="Data Structure" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value=".*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.Deque" />
+        <item itemvalue="Application.ThreeSumProblem" />
+        <item itemvalue="Application.Percolation" />
+        <item itemvalue="Application.PercolationStats" />
+        <item itemvalue="Application.test" />
+      </list>
+    </recent_temporary>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -31,8 +142,27 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1687509751228</updated>
+      <workItem from="1687509752607" duration="7838000" />
+      <workItem from="1687600310085" duration="12240000" />
+      <workItem from="1687675611539" duration="9469000" />
+      <workItem from="1687756202664" duration="7010000" />
+      <workItem from="1687771690961" duration="15372000" />
+      <workItem from="1687844886674" duration="2925000" />
+      <workItem from="1687962744065" duration="3967000" />
+      <workItem from="1688012231654" duration="594000" />
+      <workItem from="1688627627261" duration="126000" />
+      <workItem from="1688977348550" duration="594000" />
+      <workItem from="1689261080424" duration="1000" />
+      <workItem from="1691036818157" duration="5000" />
+      <workItem from="1691070855900" duration="15000" />
+      <workItem from="1692283761290" duration="975000" />
+      <workItem from="1692335649309" duration="4309000" />
+      <workItem from="1692345555245" duration="5136000" />
     </task>
     <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
     <option name="TAB_STATES">
