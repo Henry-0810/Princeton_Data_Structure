@@ -4,15 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5db4501e-23a8-4ea6-8886-b99e789d3afb" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/Stacks_and_Queue/Permutation.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Stacks_and_Queue/RandomizedQueue.java" afterDir="false" />
+    <list default="true" id="5db4501e-23a8-4ea6-8886-b99e789d3afb" name="Changes" comment="removeLast() halfway done">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Data Structure.iml" beforeDir="false" afterPath="$PROJECT_DIR$/Data Structure.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Percolation/Percolation.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Percolation/Percolation.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Percolation/PercolationStats.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Percolation/PercolationStats.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Stacks_and_Queue/Deque.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Stacks_and_Queue/Deque.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Test/ThreeSumProblem.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Test/ThreeSumProblem.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Stacks_and_Queue/RandomizedQueue.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Stacks_and_Queue/RandomizedQueue.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -157,8 +152,16 @@
       <workItem from="1691070855900" duration="15000" />
       <workItem from="1692283761290" duration="975000" />
       <workItem from="1692335649309" duration="4309000" />
-      <workItem from="1692345555245" duration="5136000" />
+      <workItem from="1692345555245" duration="8520000" />
     </task>
+    <task id="LOCAL-00001" summary="removeLast() halfway done">
+      <created>1692356994204</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1692356994204</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -174,5 +177,9 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="removeLast() halfway done" />
+    <option name="LAST_COMMIT_MESSAGE" value="removeLast() halfway done" />
   </component>
 </project>

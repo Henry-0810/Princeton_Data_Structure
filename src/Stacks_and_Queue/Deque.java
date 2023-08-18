@@ -81,7 +81,11 @@ public class Deque<Item> implements Iterable<Item> {
     public Item removeLast() {
         if(isEmpty()) throw new NoSuchElementException("Deque is empty");
         Item oldLastItem = last.item;
-        last = null;
+        Node secLastNode = first;
+        while(secLastNode.next.next != null){
+            secLastNode = secLastNode.next;
+        }
+        secLastNode.next = null;
         numOfElements--;
         return oldLastItem;
     }
@@ -127,13 +131,15 @@ public class Deque<Item> implements Iterable<Item> {
         for (Integer i:dequeNums) {
             StdOut.print(i + " ");
         }
-        StdOut.print(dequeNums.removeLast() + " ");
-        StdOut.print(dequeNums.removeFirst() + " ");
+        StdOut.println();
+        StdOut.println(dequeNums.removeLast() + " ");
+        StdOut.println(dequeNums.removeFirst() + " ");
         for (Integer i:dequeNums) {
             StdOut.print(i + " ");
         }
-        StdOut.print(dequeNums.removeFirst() + " ");
-        StdOut.print(dequeNums.removeLast() + " ");
+        StdOut.println();
+        StdOut.println(dequeNums.removeFirst() + " ");
+        StdOut.println(dequeNums.removeLast() + " ");
         for (Integer i:dequeNums) {
             StdOut.print(i + " ");
         }
