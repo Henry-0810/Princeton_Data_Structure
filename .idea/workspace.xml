@@ -4,13 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5db4501e-23a8-4ea6-8886-b99e789d3afb" name="Changes" comment="solving randomizedqueue dequeue">
-      <change afterPath="$PROJECT_DIR$/src/Permutation.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/RandomizedQueue.java" afterDir="false" />
+    <list default="true" id="5db4501e-23a8-4ea6-8886-b99e789d3afb" name="Changes" comment="week2 done">
+      <change afterPath="$PROJECT_DIR$/src/LeetCodeStuff/Longest_Common_Prefix.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/LeetCodeStuff/Valid_Parentheses.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Stacks_and_Queue/Deque.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Deque.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Stacks_and_Queue/Permutation.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Stacks_and_Queue/RandomizedQueue.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -50,13 +47,14 @@
     &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
     &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
     &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
     &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
     &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
     &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
     &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;
   }
 }</component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Application.Valid_Parentheses">
     <configuration name="Deque" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Stacks_and_Queue.Deque" />
       <module name="Data Structure" />
@@ -70,8 +68,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="LeetCodeStuff.test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="LeetCodeStuff.test" />
+    <configuration name="Longest_Common_Prefix" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="LeetCodeStuff.Longest_Common_Prefix" />
       <module name="Data Structure" />
       <extension name="coverage">
         <pattern>
@@ -109,12 +107,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ThreeSumProblem" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Test.ThreeSumProblem" />
+    <configuration name="Valid_Parentheses" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="LeetCodeStuff.Valid_Parentheses" />
       <module name="Data Structure" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Test.*" />
+          <option name="PATTERN" value="LeetCodeStuff.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -124,11 +122,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Valid_Parentheses" />
+        <item itemvalue="Application.Longest_Common_Prefix" />
         <item itemvalue="Application.Permutation" />
         <item itemvalue="Application.RandomizedQueue" />
         <item itemvalue="Application.Deque" />
-        <item itemvalue="Application.LeetCodeStuff.test" />
-        <item itemvalue="Application.ThreeSumProblem" />
       </list>
     </recent_temporary>
   </component>
@@ -163,7 +161,14 @@
       <workItem from="1692598500846" duration="8245000" />
       <workItem from="1692625196099" duration="1848000" />
       <workItem from="1692627639271" duration="189000" />
-      <workItem from="1692631451038" duration="7789000" />
+      <workItem from="1692631451038" duration="7829000" />
+      <workItem from="1692718343031" duration="4303000" />
+      <workItem from="1692776956171" duration="189000" />
+      <workItem from="1692797939095" duration="594000" />
+      <workItem from="1692976760128" duration="783000" />
+      <workItem from="1692979732520" duration="890000" />
+      <workItem from="1693667358421" duration="4133000" />
+      <workItem from="1693744475142" duration="579000" />
     </task>
     <task id="LOCAL-00001" summary="removeLast() halfway done">
       <created>1692356994204</created>
@@ -186,7 +191,14 @@
       <option name="project" value="LOCAL" />
       <updated>1692519495646</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="week2 done">
+      <created>1692641770674</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1692641770674</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -207,6 +219,7 @@
     <MESSAGE value="removeLast() halfway done" />
     <MESSAGE value="1/3 progress week 2" />
     <MESSAGE value="solving randomizedqueue dequeue" />
-    <option name="LAST_COMMIT_MESSAGE" value="solving randomizedqueue dequeue" />
+    <MESSAGE value="week2 done" />
+    <option name="LAST_COMMIT_MESSAGE" value="week2 done" />
   </component>
 </project>
