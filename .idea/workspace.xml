@@ -5,11 +5,15 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="5db4501e-23a8-4ea6-8886-b99e789d3afb" name="Changes" comment="week3 start">
-      <change afterPath="$PROJECT_DIR$/src/BruteCollinearPoints.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/FastCollinearPoints.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/LineSegment.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Point.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/MTU_DataStructure/Lab1/Exercise.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/MTU_DataStructure/Lab1/FileHandling.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/MTU_DataStructure/Lab1/hamlet.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data Structure.iml" beforeDir="false" afterPath="$PROJECT_DIR$/Data Structure.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/BruteCollinearPoints.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/CollinearPoints/BruteCollinearPoints.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/FastCollinearPoints.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/CollinearPoints/FastCollinearPoints.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/LineSegment.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/CollinearPoints/LineSegment.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Point.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/CollinearPoints/Point.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -38,31 +42,50 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/hp/Desktop/Comp Sci notes/Algorithms/Lectures/algs4.jar&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "last_opened_file_path": "C:/Users/hp/Desktop/Comp Sci notes/Algorithms/Lectures/algs4.jar",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.2",
+    "settings.editor.selected.configurable": "preferences.pluginManager",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
-  <component name="RunManager" selected="Application.Valid_Parentheses">
-    <configuration name="Deque" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Stacks_and_Queue.Deque" />
+}]]></component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\t00229172\IdeaProjects\Princeton_Data_Structure\src\MTU_DataStructure\Lab1" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Application.FileHandling">
+    <configuration name="Exercise" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="MTU_DataStructure.Lab1.Exercise" />
       <module name="Data Structure" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value=".*" />
+          <option name="PATTERN" value="MTU_DataStructure.Lab1.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="FileHandling" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="MTU_DataStructure.Lab1.FileHandling" />
+      <module name="Data Structure" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="MTU_DataStructure.Lab1.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -83,25 +106,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Permutation" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Stacks_and_Queue.Permutation" />
+    <configuration name="Q1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="MTU_DataStructure.Lab1.Q1" />
       <module name="Data Structure" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value=".*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="RandomizedQueue" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Stacks_and_Queue.RandomizedQueue" />
-      <module name="Data Structure" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value=".*" />
+          <option name="PATTERN" value="MTU_DataStructure.Lab1.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -124,11 +134,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.FileHandling" />
+        <item itemvalue="Application.Exercise" />
+        <item itemvalue="Application.Q1" />
         <item itemvalue="Application.Valid_Parentheses" />
         <item itemvalue="Application.Longest_Common_Prefix" />
-        <item itemvalue="Application.Permutation" />
-        <item itemvalue="Application.RandomizedQueue" />
-        <item itemvalue="Application.Deque" />
       </list>
     </recent_temporary>
   </component>
@@ -171,6 +181,7 @@
       <workItem from="1692979732520" duration="890000" />
       <workItem from="1693667358421" duration="4133000" />
       <workItem from="1693744475142" duration="11780000" />
+      <workItem from="1694696991861" duration="5802000" />
     </task>
     <task id="LOCAL-00001" summary="removeLast() halfway done">
       <created>1692356994204</created>

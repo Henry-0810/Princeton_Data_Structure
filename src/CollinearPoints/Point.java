@@ -1,3 +1,5 @@
+package CollinearPoints;
+
 import java.util.Comparator;
 
 public class Point implements Comparable<Point> {
@@ -20,7 +22,7 @@ public class Point implements Comparable<Point> {
 
     // string representation
     public String toString() {
-        return "Point is (" + this.x + "," + this.y + ")";
+        return "CollinearPoints.Point is (" + this.x + "," + this.y + ")";
     }
 
     // compare two points by y-coordinates, breaking ties by x-coordinates

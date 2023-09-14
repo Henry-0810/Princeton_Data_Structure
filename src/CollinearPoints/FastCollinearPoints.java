@@ -1,3 +1,5 @@
+package CollinearPoints;
+
 import java.util.Arrays;
 
 public class FastCollinearPoints {
@@ -5,7 +7,7 @@ public class FastCollinearPoints {
     public FastCollinearPoints(Point[] points) {
         if (points == null) throw new IllegalArgumentException("Argument is null");
         for (int i = 0; i < points.length; i++) {
-            if(points[i] == null) throw new IllegalArgumentException("Point index " + i + " is null");
+            if(points[i] == null) throw new IllegalArgumentException("CollinearPoints.Point index " + i + " is null");
         }
         Arrays.sort(points);
         for (int i = 0; i < points.length-1; i++) {
