@@ -4,16 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5db4501e-23a8-4ea6-8886-b99e789d3afb" name="Changes" comment="week3 start">
-      <change afterPath="$PROJECT_DIR$/src/MTU_DataStructure/Lab1/Exercise.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/MTU_DataStructure/Lab1/FileHandling.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/MTU_DataStructure/Lab1/hamlet.txt" afterDir="false" />
+    <list default="true" id="5db4501e-23a8-4ea6-8886-b99e789d3afb" name="Changes" comment="week1 of hell">
+      <change afterPath="$PROJECT_DIR$/src/MTU_DataStructure/Lab2/DoublyLinkedList.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/MTU_DataStructure/Lab1/FileHandlingTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Data Structure.iml" beforeDir="false" afterPath="$PROJECT_DIR$/Data Structure.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/BruteCollinearPoints.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/CollinearPoints/BruteCollinearPoints.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/FastCollinearPoints.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/CollinearPoints/FastCollinearPoints.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/LineSegment.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/CollinearPoints/LineSegment.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Point.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/CollinearPoints/Point.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/MTU_DataStructure/Lab1/FileHandling.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/MTU_DataStructure/Lab1/FileHandling.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -27,6 +23,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Class" />
+        <option value="JUnit5 Test Class" />
       </list>
     </option>
   </component>
@@ -44,10 +41,16 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "Downloaded.Files.Path.Enabled": "false",
+    "Repository.Attach.Annotations": "false",
+    "Repository.Attach.JavaDocs": "false",
+    "Repository.Attach.Sources": "false",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "WebServerToolWindowFactoryState": "false",
+    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary": "JUnit5",
+    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5": "",
     "last_opened_file_path": "C:/Users/hp/Desktop/Comp Sci notes/Algorithms/Lectures/algs4.jar",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
@@ -64,6 +67,12 @@
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\t00229172\IdeaProjects\Princeton_Data_Structure\src\MTU_DataStructure\Lab1" />
+    </key>
+    <key name="CreateTestDialog.Recents.Supers">
+      <recent name="" />
+    </key>
+    <key name="CreateTestDialog.RecentsKey">
+      <recent name="MTU_DataStructure.Lab1" />
     </key>
   </component>
   <component name="RunManager" selected="Application.FileHandling">
@@ -181,7 +190,8 @@
       <workItem from="1692979732520" duration="890000" />
       <workItem from="1693667358421" duration="4133000" />
       <workItem from="1693744475142" duration="11780000" />
-      <workItem from="1694696991861" duration="5802000" />
+      <workItem from="1694696991861" duration="5836000" />
+      <workItem from="1695301958799" duration="5042000" />
     </task>
     <task id="LOCAL-00001" summary="removeLast() halfway done">
       <created>1692356994204</created>
@@ -218,7 +228,14 @@
       <option name="project" value="LOCAL" />
       <updated>1693745072169</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="week1 of hell">
+      <created>1694703133776</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1694703133776</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -241,6 +258,7 @@
     <MESSAGE value="solving randomizedqueue dequeue" />
     <MESSAGE value="week2 done" />
     <MESSAGE value="week3 start" />
-    <option name="LAST_COMMIT_MESSAGE" value="week3 start" />
+    <MESSAGE value="week1 of hell" />
+    <option name="LAST_COMMIT_MESSAGE" value="week1 of hell" />
   </component>
 </project>

@@ -5,13 +5,14 @@ import java.io.FileNotFoundException;
 import java.util.*;
 
 public class FileHandling {
-    public static void main(String[] args) {
+    public static Map<String, TreeSet<Integer>> hamletAnalysis() {
         String fileName = "C:\\Users\\t00229172\\IdeaProjects\\Princeton_Data_Structure\\src\\MTU_DataStructure\\Lab1\\hamlet.txt";
-
+        Map<String, TreeSet<Integer>> wordsMapList = new TreeMap<>();
         try {
             Scanner in = new Scanner(new File(fileName));
 //            Set<String> words = new TreeSet<>();
-            Map<String, Integer> map = new TreeMap<>();
+//            Map<String, Integer> wordsMap = new TreeMap<>();
+
             int lineNumber = 1;
             while (in.hasNextLine()) {
                 Scanner lineParser = new Scanner(in.nextLine());
@@ -19,20 +20,37 @@ public class FileHandling {
                 lineParser.useDelimiter("[^A-Za-z0-9]+");
                 while (lineParser.hasNext()) {
                     String word = lineParser.next();
+                    //set add stuff
 //                    words.add(word);
-                    map.put(word,lineNumber);
-                    lineNumber++;
+
+                    //map without occurrence line numbers add stuff
+//                    wordsMap.put(word, lineNumber);
+
+                    if (!wordsMapList.containsKey(word)) {
+                        TreeSet<Integer> lineNumberSet = new TreeSet<>();
+                        lineNumberSet.add(lineNumber);
+                        wordsMapList.put(word, lineNumberSet);
+                    } else {
+                        wordsMapList.get(word).add(lineNumber);
+                    }
                 }
+                lineNumber++;
             }
-//            Iterator<String> i = words.iterator();
+
+//            Iterator<Map.Entry<String, Integer>> i = wordsMap.entrySet().iterator();
+//            System.out.println("Map with no occurrences");
 //            while(i.hasNext()) {
-//                System.out.print(i.next() + " ");
+//                System.out.print("Word: " + i.next().getKey() + " | Last line number: " + i.next().getValue() + "\n");
 //            }
-//            System.out.println("Size of the tree set: " + words.size());
+//            System.out.println("Size of the tree map: " + wordsMap.size());
+
+            System.out.println(wordsMapList);
+            System.out.println("Size of the tree map: " + wordsMapList.size());
 
 
         } catch (FileNotFoundException e) {
             e.printStackTrace();
         }
+        return wordsMapList;
     }
 }
