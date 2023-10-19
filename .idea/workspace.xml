@@ -5,10 +5,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="5db4501e-23a8-4ea6-8886-b99e789d3afb" name="Changes" comment="week2 of hell">
-      <change afterPath="$PROJECT_DIR$/src/MTU_DataStructure/Lab2/CP3LinkedList.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test/MTU_DataStructure/Lab2/CP3LinkedListTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/MTU_DataStructure/Lab2/Factorial.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/MTU_DataStructure/Lab6/BinarySearchTree.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/MTU_DataStructure/Lab6/TestBST.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/MTU_DataStructure/Lab6/BinarySearchTreeTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/MTU_DataStructure/Lab2/DoublyLinkedList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/MTU_DataStructure/Lab2/DoublyLinkedList.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data Structure.iml" beforeDir="false" afterPath="$PROJECT_DIR$/Data Structure.iml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -32,39 +35,44 @@
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
+  <component name="ProjectColorInfo"><![CDATA[{
+  "associatedIndex": 1
+}]]></component>
   <component name="ProjectId" id="2RbDBBHaVTLRWsSiLJreCHPl7Yo" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;Downloaded.Files.Path.Enabled&quot;: &quot;false&quot;,
-    &quot;Repository.Attach.Annotations&quot;: &quot;false&quot;,
-    &quot;Repository.Attach.JavaDocs&quot;: &quot;false&quot;,
-    &quot;Repository.Attach.Sources&quot;: &quot;false&quot;,
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary&quot;: &quot;JUnit5&quot;,
-    &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5&quot;: &quot;&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/hp/Desktop/Comp Sci notes/Algorithms/Lectures/algs4.jar&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Downloaded.Files.Path.Enabled": "false",
+    "Repository.Attach.Annotations": "false",
+    "Repository.Attach.JavaDocs": "false",
+    "Repository.Attach.Sources": "false",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary": "JUnit5",
+    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5": "",
+    "git-widget-placeholder": "master",
+    "last_opened_file_path": "C:/Users/hp/Desktop/Comp Sci notes/Algorithms/Lectures/algs4.jar",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.2",
+    "settings.editor.selected.configurable": "preferences.pluginManager",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\t00229172\IdeaProjects\Princeton_Data_Structure\src\MTU_DataStructure\Lab6" />
       <recent name="C:\Users\t00229172\IdeaProjects\Princeton_Data_Structure\src\MTU_DataStructure\Lab2" />
       <recent name="C:\Users\t00229172\IdeaProjects\Princeton_Data_Structure\src\MTU_DataStructure\Lab1" />
     </key>
@@ -72,22 +80,53 @@
       <recent name="" />
     </key>
     <key name="CreateTestDialog.RecentsKey">
+      <recent name="MTU_DataStructure.Lab6" />
       <recent name="MTU_DataStructure.Lab2" />
       <recent name="MTU_DataStructure.Lab1" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.CP3LinkedListTest.testAddLast">
-    <configuration name="CP3LinkedListTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="JUnit.BinarySearchTreeTest.testContains">
+    <configuration name="TestBST" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="MTU_DataStructure.Lab6.TestBST" />
       <module name="Data Structure" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="MTU_DataStructure.Lab2.*" />
+          <option name="PATTERN" value="MTU_DataStructure.Lab6.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="MTU_DataStructure.Lab2" />
-      <option name="MAIN_CLASS_NAME" value="MTU_DataStructure.Lab2.CP3LinkedListTest" />
-      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="BinarySearchTreeTest.testContains" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Data Structure" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="MTU_DataStructure.Lab6.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="MTU_DataStructure.Lab6" />
+      <option name="MAIN_CLASS_NAME" value="MTU_DataStructure.Lab6.BinarySearchTreeTest" />
+      <option name="METHOD_NAME" value="testContains" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="BinarySearchTreeTest.testOutput" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Data Structure" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="MTU_DataStructure.Lab6.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="MTU_DataStructure.Lab6" />
+      <option name="MAIN_CLASS_NAME" value="MTU_DataStructure.Lab6.BinarySearchTreeTest" />
+      <option name="METHOD_NAME" value="testOutput" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -124,45 +163,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="CP3LinkedListTest.testRemoveFirst" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="Data Structure" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="MTU_DataStructure.Lab2.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="MTU_DataStructure.Lab2" />
-      <option name="MAIN_CLASS_NAME" value="MTU_DataStructure.Lab2.CP3LinkedListTest" />
-      <option name="METHOD_NAME" value="testRemoveFirst" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="CP3LinkedListTest.testSize" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="Data Structure" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="MTU_DataStructure.Lab2.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="MTU_DataStructure.Lab2" />
-      <option name="MAIN_CLASS_NAME" value="MTU_DataStructure.Lab2.CP3LinkedListTest" />
-      <option name="METHOD_NAME" value="testSize" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.BinarySearchTreeTest.testContains" />
+        <item itemvalue="Application.TestBST" />
+        <item itemvalue="JUnit.BinarySearchTreeTest.testOutput" />
         <item itemvalue="JUnit.CP3LinkedListTest.testAddLast" />
         <item itemvalue="JUnit.CP3LinkedListTest.testContains" />
-        <item itemvalue="JUnit.CP3LinkedListTest.testSize" />
-        <item itemvalue="JUnit.CP3LinkedListTest" />
-        <item itemvalue="JUnit.CP3LinkedListTest.testRemoveFirst" />
       </list>
     </recent_temporary>
   </component>
@@ -208,6 +215,7 @@
       <workItem from="1694696991861" duration="5836000" />
       <workItem from="1695301958799" duration="5061000" />
       <workItem from="1695905137251" duration="5475000" />
+      <workItem from="1697720809615" duration="5201000" />
     </task>
     <task id="LOCAL-00001" summary="removeLast() halfway done">
       <created>1692356994204</created>
